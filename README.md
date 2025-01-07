@@ -14,7 +14,9 @@ Lightning NetworkのRouting情報をAIに解析させる。
  --> Lncliで取得: ex.) lncli listpeers >> file名
 
 
+ 
 
+ 
 
 ----- openAI api key -----
 
