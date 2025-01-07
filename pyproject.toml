@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ln-fwdhistory-analysis"
+version = "0.1.0"
+description = ""
+authors = ["kazuW <35624002+kazuW@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ln_fwdhistory_analysis"}]
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+openai = "1.40.6"
+httpx = "0.27.2"
+python-dotenv = "^1.0.0"
+gradio = "4.44.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
