@@ -1,10 +1,12 @@
 Lightning NetworkのRouting情報をAIに解析させる。
 
-準備
------ LND -----
-LNDのforwadin情報をfileを用意する（この情報を解析）。 main.py 238行目(file名修正必要)
+準備/n
+----- LND -----/n
+LNDのforwadin情報をfileを用意する（この情報を解析）。 /n
+main.py 238行目(file名修正必要)/n
  --> Lncliで取得: ex.) lncli fwdinghistory --start_time "-1w" --max_events 1000 >> file名
-LNDのchannel情報を用意する。main.py 240行目(file名修正必要)
+LNDのchannel情報を用意する。
+main.py 240行目(file名修正必要)
  --> Lncliで取得: ex.) lncli listpeers >> file名
 
 ----- openAI api key -----
