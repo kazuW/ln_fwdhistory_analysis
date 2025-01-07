@@ -3,7 +3,7 @@ Lightning NetworkのRouting情報をAIに解析させる。
 
 準備
 
------ LND -----
+---------- LND ----------
 
 ・LNDのforwadin情報をfileを用意する（この情報を解析）。main.py 238行目(file名修正必要)
 
@@ -14,11 +14,7 @@ Lightning NetworkのRouting情報をAIに解析させる。
  --> Lncliで取得: ex.) lncli listpeers >> file名
 
 
- 
-
- 
-
------ openAI api key -----
+---------- openAI api key ----------
 
 ・login or signup
 
